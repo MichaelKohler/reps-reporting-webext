@@ -12,13 +12,10 @@
       "38": "icons/icon.png"
     },
     "default_title": "Reporting",
-    "default_popup": "popup/reporting.html"
+    "default_popup": "https://reps.mozilla.org/reports/new/"
   },
   "permissions": [
     "webRequest",
     "<all_urls>"
-  ],
-  "background": {
-    "scripts": ["background.js"]
-  }
+  ]
 }
