@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Reps Reporting",
+  "version": "1.0",
+  "description": "Report your Reps activities without opening the Reps portal.",
+  "icons": {
+    "48": "icons/icon.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "icons/icon.png",
+      "38": "icons/icon.png"
+    },
+    "default_title": "Reporting",
+    "default_popup": "popup/reporting.html"
+  },
+  "permissions": [
+    "webRequest",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
